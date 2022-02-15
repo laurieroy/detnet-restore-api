@@ -1,12 +1,10 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using API.Entities;
 
 namespace API.Data
 {
-    public static class DbInitializer
+	public static class DbInitializer
     {
         public static void Initialize (StoreContext context)
         {
